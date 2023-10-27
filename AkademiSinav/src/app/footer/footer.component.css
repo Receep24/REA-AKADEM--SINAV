@@ -1,0 +1,30 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Footer arka plan rengini ayarlayabilirsiniz */
+  color: #fff; /* Metin rengini ayarlayabilirsiniz */
+  padding: 20px; /* İstenilen padding miktarını ayarlayabilirsiniz */
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer ul li {
+  margin: 0 10px; /* İstediğiniz boşluk miktarını ayarlayabilirsiniz */
+}
+
+#footer a {
+  text-decoration: none;
+  color: #fff; /* Bağlantı metin rengini ayarlayabilirsiniz */
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
